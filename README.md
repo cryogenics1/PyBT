@@ -1,24 +1,12 @@
-PyBT
+BLEThon
 ====
 
-Hackable Bluetooth stack written in Python
+Yet a Hackable Bluetooth stack written in Python
 ------------------------------------------
 
-PyBT is a crappy half implementation of a Bluetooth stack in Python. At
-the moment it only supports Bluetooth Smart (BLE).
+BLEThon is a fork of a fork. First, it is a fork of a crappy half implementation of a Bluetooth stack in Python, then it's a fork of BLESuite's PyBT modifications.
 
-PyBT emphasizes hackability over correctness. It mostly follows the
+BLEThon brings a new approach to make stuff work under Python 3.12+.
+
+BLEThon emphasizes hackability over correctness. It mostly follows the
 rules, unless you tell it not to.
-
-Installation
-------------
-
-A standard python setup script is included.
-
-    # python setup.py install
-
-This will install the `PyBT` egg.
-
-PyBT is built on Scapy, but depends on features that have not yet been
-merged upstream. For the time being, please install Scapy from
-https://bitbucket.org/mikeryan1/scapy
